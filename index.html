@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <h1>Todo List</h1>
+    <div class="inputContainer">
+      <input type="text" id="inputField" />
+      <button id="addButton">Agregar</button>
+    </div>
+    <main>
+      <div class="counterContainer">
+        <h4 class="totalCounter">Total: </h4>
+        <h4 class="checkedCounter">Realizadas: </h4>
+      </div>
+      <table class="listContainer">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Tarea</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="listBody"></tbody>
+      </table>
+    </main>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f5bdbb41e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
